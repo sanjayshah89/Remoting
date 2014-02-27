@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteHostingService", "RemoteHostingService\RemoteHostingService.csproj", "{ACDA4B0A-126D-417A-82D9-7E21D181D156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotingClient", "RemotingClient\RemotingClient.csproj", "{65B349A3-B807-4487-8A8A-54921F2D1232}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{DD6FE99C-C288-47B6-8906-03E04F52BC1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{C20A939F-53BD-4229-AA9C-B53FA4F6FA5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomClientSinks", "CustomClientSinks\CustomClientSinks.csproj", "{73074513-EA4E-496B-A480-8F9247CAECD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Objects", "Objects\Objects.csproj", "{2A102D83-F254-466F-B754-E1732C8AE87F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomServerSinks", "CustomServerSinks\CustomServerSinks.csproj", "{C28280FE-8505-43E6-A282-65B448238FEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACDA4B0A-126D-417A-82D9-7E21D181D156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDA4B0A-126D-417A-82D9-7E21D181D156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDA4B0A-126D-417A-82D9-7E21D181D156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDA4B0A-126D-417A-82D9-7E21D181D156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65B349A3-B807-4487-8A8A-54921F2D1232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B349A3-B807-4487-8A8A-54921F2D1232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B349A3-B807-4487-8A8A-54921F2D1232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B349A3-B807-4487-8A8A-54921F2D1232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD6FE99C-C288-47B6-8906-03E04F52BC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD6FE99C-C288-47B6-8906-03E04F52BC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD6FE99C-C288-47B6-8906-03E04F52BC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD6FE99C-C288-47B6-8906-03E04F52BC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C20A939F-53BD-4229-AA9C-B53FA4F6FA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20A939F-53BD-4229-AA9C-B53FA4F6FA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20A939F-53BD-4229-AA9C-B53FA4F6FA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20A939F-53BD-4229-AA9C-B53FA4F6FA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73074513-EA4E-496B-A480-8F9247CAECD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73074513-EA4E-496B-A480-8F9247CAECD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73074513-EA4E-496B-A480-8F9247CAECD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73074513-EA4E-496B-A480-8F9247CAECD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A102D83-F254-466F-B754-E1732C8AE87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A102D83-F254-466F-B754-E1732C8AE87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A102D83-F254-466F-B754-E1732C8AE87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A102D83-F254-466F-B754-E1732C8AE87F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C28280FE-8505-43E6-A282-65B448238FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28280FE-8505-43E6-A282-65B448238FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28280FE-8505-43E6-A282-65B448238FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28280FE-8505-43E6-A282-65B448238FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
